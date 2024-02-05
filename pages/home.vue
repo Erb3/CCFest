@@ -3,7 +3,7 @@
     <NuxtLink to="/event/jam2024">
       <article>
         <h3>CCFest Jam 2024</h3>
-        <p>4. mar 12:00 --> 24. mar 12:00</p>
+        <p>TBD 12:00 --> TBD 12:00</p>
       </article>
     </NuxtLink>
   </section>
