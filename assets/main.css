@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Protest+Riot&display=swap');
+
+:root {
+  --background: #171d23;
+  --main-text: #f2f3f5;
+  --secoundary-text: #a3a3a3;
+  --link: #40a2e3;
+  --lifted: #31363f;
+  --lifted-hover: #3a404b;
+}
+
+body {
+  background-color: var(--background);
+  color: #f2f3f5;
+  font-family: 'Inter', sans-serif;
+}
+
+html,
+body,
+#__nuxt {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#__nuxt {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: var(--link);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.1s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
